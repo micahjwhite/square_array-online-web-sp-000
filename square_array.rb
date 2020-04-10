@@ -1,4 +1,4 @@
-def square_array(array)
-  array.each do
-    
+def square_array(numbers)
+  numbers.each do |number|
+    puts "#{number}" ** 2
 end
