@@ -1,4 +1,4 @@
 def square_array(numbers)
   numbers.each do |number|
-    puts "#{number}" ** 2
+    puts "#{number}".to_i ** 2
 end
